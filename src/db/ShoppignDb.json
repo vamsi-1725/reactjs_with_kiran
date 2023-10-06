@@ -1,0 +1,98 @@
+{
+    "shoppingDb": {
+        "register": [
+
+        ],
+        "products": [
+            {
+                "id": 1,
+                "categoryName": "Suite",
+                "pName": "US Polo",
+                "pPrice": "5000",
+                "imgUrl": "https://tse4.mm.bing.net/th?id=OIP.Z-zV4utNR8pP84DFRF1atgHaKT&pid=Api&P=0&h=180",
+                "inventoryStatus": "INSTOCK"
+            },
+            {
+                "id": 2,
+                "categoryName": "Shirt",
+                "pName": "Roadster",
+                "pPrice": "1200",
+                "imgUrl": "https://tse3.mm.bing.net/th?id=OIP.7L3ivrI8GH819TpCZsldOgHaLn&pid=Api&P=0&h=180",
+                "inventoryStatus": "INSTOCK"
+            },
+            {
+                "id": 3,
+                "categoryName": "Shirt",
+                "pName": "US Polo",
+                "pPrice": "1000",
+                "imgUrl": "https://tse2.mm.bing.net/th?id=OIP.7ZTg1yn6PGMseSM8plLCNgHaMo&pid=Api&P=0&h=180",
+                "inventoryStatus": "LOWSTOCK"
+            },
+            {
+                "id": 4,
+                "categoryName": "Suite",
+                "pName": "US Polo",
+                "pPrice": "5000",
+                "imgUrl": "https://tse4.mm.bing.net/th?id=OIP.Z-zV4utNR8pP84DFRF1atgHaKT&pid=Api&P=0&h=180",
+                "inventoryStatus": "OUTOFSTOCK"
+            },
+            {
+                "id": 5,
+                "categoryName": "Shirt",
+                "pName": "US Polo",
+                "pPrice": "2000",
+                "imgUrl": "https://tse3.mm.bing.net/th?id=OIP.88gYuk5gv6iWlpbaYK7qlgHaN-&pid=Api&P=0&h=180",
+                "inventoryStatus": "INSTOCK"
+            },
+            {
+                "id": 6,
+                "categoryName": "Suite",
+                "pName": "Lenin",
+                "pPrice": "5500",
+                "imgUrl": "https://tse3.mm.bing.net/th?id=OIP.jUk1AlH5AmcCRyYAYXfCYgHaLQ&pid=Api&P=0&h=180",
+                "inventoryStatus": "LOWSTOCK"
+            },
+            {
+                "id": 7,
+                "categoryName": "Women ware",
+                "pName": "Dress",
+                "pPrice": "2500",
+                "imgUrl": "https://tse3.mm.bing.net/th?id=OIP.9-p8zON4xV1o0oOg629C_gDkER&pid=Api&P=0&h=180",
+                "inventoryStatus": "INSTOCK"
+            },
+            {
+                "id": 8,
+                "categoryName": "Women ware",
+                "pName": "Dress",
+                "pPrice": "2200",
+                "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.YEydreTBDfKGcdAW_fhcCgHaJl&pid=Api&P=0&h=180",
+                "inventoryStatus": "LOWSTOCK"
+            },
+            {
+                "id": 9,
+                "categoryName": "Women ware",
+                "pName": "Dress",
+                "pPrice": "500",
+                "imgUrl": "https://tse4.mm.bing.net/th?id=OIP.3qeCqa9XaqJootD0tHfqiwHaJ8&pid=Api&P=0&h=180",
+                "inventoryStatus": "OUTOFSTOCK"
+            },
+            {
+                "id": 10,
+                "categoryName": "Women ware",
+                "pName": "Dress",
+                "pPrice": "4500",
+                "imgUrl": "https://tse1.mm.bing.net/th?id=OIP.u7cU4hnOU1p_0SFrYYlxhgHaK2&pid=Api&P=0&h=180",
+                "inventoryStatus": "OUTOFSTOCK"
+            },
+            {
+                "id": 11,
+                "categoryName": "Women ware",
+                "pName": "Dress",
+                "pPrice": "2300",
+                "imgUrl": "https://tse3.mm.bing.net/th?id=OIP.ubwgkk-1z_W3UltXNhFT6gAAAA&pid=Api&P=0&h=180",
+                "inventoryStatus": "INSTOCK"
+            }
+        ]
+
+    }
+}

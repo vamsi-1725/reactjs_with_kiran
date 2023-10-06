@@ -1,38 +1,96 @@
-.App {
-  text-align: center;
-}
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
-}
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+/* Add this CSS to your existing styles or create a separate CSS file */
+.Header {
+  position: fixed;
   display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
+  padding-left: 485px;
+  padding-right: 100px;
+  width: 100%;
+  background: linear-gradient(to right, rgb(136, 139, 136), rgb(252, 250, 250), red);
+  margin: -20px;
+  font-size: large;
+  font-weight: normal;
+  z-index: 1;
+  /* justify-content: space-between; */
+}
+
+.sidebar-nav {
+  position: fixed;
+  display: inline-block;
+  top: 0px;
+  text-align: left;
+  background-color: rgb(63, 68, 68);
+  width: 180px;
+  transition: width 0.5s;
+  height: 150vh;
+  padding: 10px;
+  padding-left: 15px;
+  font-weight: bold;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.sidebar-nav-close {
+  width: 60px;
+  transition: width 0.5s;
+  transform: translateX(0);
+}
+
+.sidebar-nav-link {
+  display: block;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  text-align: left;
   color: white;
+  width: 180px;
+  font-size: 15px;
+  padding-top: 10px;
+  padding-left: 10px;
+  padding-bottom: 25px;
+  text-decoration: none;
+  cursor: pointer;
 }
 
-.App-link {
-  color: #61dafb;
+
+
+.Footer {
+  position: fixed;
+  bottom: 0;
+  background-color: lightgrey;
+  text-align: center;
+  width: 100%;
+  line-height: 30px;
+  font-size: small;
 }
 
-@keyframes App-logo-spin {
-  from {
+.v-logo {
+  height: 67px;
+  width: 115px;
+  padding-right: 55px;
+  margin-left: -5px;
+  margin-top: -5px;
+}
+
+.shaking-icon {
+  animation: shake 0.5s ease-in-out infinite;
+}
+
+@keyframes tilt-shaking {
+  0% {
     transform: rotate(0deg);
   }
-  to {
-    transform: rotate(360deg);
+
+  25% {
+    transform: rotate(5deg);
+  }
+
+  50% {
+    transform: rotate(0eg);
+  }
+
+  75% {
+    transform: rotate(-5deg);
+  }
+
+  100% {
+    transform: rotate(0deg);
   }
 }
